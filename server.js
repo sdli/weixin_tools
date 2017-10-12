@@ -18,7 +18,7 @@ app.get("/MP_verify_8NkWdD5pYfIZ0k0p.txt",(req,res)=>{
 });
 
 // 微信重定向
-app.get("/getOpenid",(req,res)=>{
+app.get("/",(req,res)=>{
   var code = req.query.code;
   var url = req.query.url;
   res.writeHead(301, {'Location': 'http://'+url+'?code='+code});
