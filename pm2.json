@@ -1,0 +1,10 @@
+[{
+    "name"        : "weixin_tools",
+    "script"      : "server.js",
+    "error_file" : "./src/logs/server.log",
+    "env": {
+        "NODE_ENV": "production"
+    },
+    "watch" : true
+}
+]
