@@ -4,6 +4,7 @@
   "description": "微信转发工具",
   "main": "index.js",
   "scripts": {
+    "start":"pm2 start pm2.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies":{
